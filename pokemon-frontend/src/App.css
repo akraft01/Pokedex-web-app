@@ -1,0 +1,149 @@
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.search-container input[type="text"], .search-container select {
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #424141;
+  outline: none; 
+  background-color:#e0e0e0;
+  color: #313030;
+  font-weight: bold;
+}
+
+.search-container input[type="text"] {
+  width: 200px; 
+  
+}
+
+.search-container select {
+  cursor: pointer;
+  
+}
+
+/* Améliore l'interaction au survol et au focus */
+.search-container input[type="text"]:hover, .search-container select:hover,
+.search-container input[type="text"]:focus, .search-container select:focus {
+  border-color: #4CAF50;
+}
+th, td {
+  padding: 8px; 
+  font-size: 14px; 
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #c9f6ce; 
+  color: #f4f4f4; 
+  margin: 0 8em ;
+}
+th.type-column {
+  width: 150px; 
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background-color: #627fb6; 
+  box-shadow: 0px 0px 100px rgb(255, 255, 255); 
+  
+}
+.logoball{
+  margin-left: 5px;
+  width: 24px;
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #f4f4f4; 
+  
+}
+
+tr:hover {
+  background-color: #565656; 
+}
+
+th {
+  background-color: #66bb6a; 
+  color: white;
+  position: sticky;
+  top: 0;
+}
+h1 {
+  text-align: center;
+  color: #052857;
+
+}
+
+/* Styles spécifiques pour les boutons de pagination */
+.pagination button {
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  color: rgb(48, 48, 56);
+}
+
+/* Bouton Précédent avec une couleur spécifique */
+.pagination-prev {
+  background-color: #f44336; 
+  color: white; 
+  font-weight: bold;
+}
+
+/* Bouton Suivant avec une couleur spécifique */
+.pagination-next {
+  background-color: #2196f3; 
+  color: white; 
+  font-weight: bold;
+}
+
+.pagination button:hover {
+  opacity: 0.8;
+}
+
+.pagination button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666666;
+}
+
+.pagination button.active {
+  background-color: #4CAF50; 
+  color: white; 
+  font-weight: bold; 
+}
+
+a {
+  color: #66bb6a;
+  text-decoration: none;
+}
+.pagination {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px 0; 
+}
+a:hover {
+  color: #4caf50;
+  
+}
+
+th {
+  cursor: pointer; 
+}
+
+th:hover:not(.non-clickable) {
+  background-color: #75e97fe1; 
+}
