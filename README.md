@@ -52,7 +52,7 @@ npm start
 
 ///////////////////////
 
-Démarrer l'application React
+Démarrer l'application React (Pokedex-web-app-main\Pokedex-web-app-main\pokemon-frontend)
 
 Dans un nouveau terminal, à partir du dossier racine du projet, exécutez :
 
