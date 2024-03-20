@@ -44,6 +44,8 @@ npm install
 
 ///////////////////////
 
+Repeter la meme chose dans le dossier Pokedex-web-app-main\Pokedex-web-app-main\pokemon-frontend
+
 Démarrer le serveur back-end
 
 ////////////////////////
