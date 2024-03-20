@@ -25,7 +25,7 @@ Prérequis
 
 Avant de démarrer, assurez-vous d'avoir Node.js et npm installés sur votre système. Ce projet a été créé avec Node.js version v14.17.0 ou supérieur et npm version 6.14.13 ou supérieur.
 
-Installation
+# Installation
 
 Pour exécuter ce projet localement, suivez ces étapes :
 
