@@ -39,13 +39,17 @@ Installer les dépendances
 Dans le dossier racine du projet, exécutez :
 
 ///////////////////////
+
 npm install
+
 ///////////////////////
 
 Démarrer le serveur back-end
 
 ////////////////////////
+
 npm start
+
 ///////////////////////
 
 Démarrer l'application React
@@ -53,7 +57,9 @@ Démarrer l'application React
 Dans un nouveau terminal, à partir du dossier racine du projet, exécutez :
 
 ///////////////////////
+
 npm start
+
 ///////////////////////
 
 Ceci lancera l'application dans votre navigateur à l'adresse http://localhost:3000.
