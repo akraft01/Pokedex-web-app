@@ -54,9 +54,9 @@ npm start
 
 ///////////////////////
 
-Démarrer l'application React (Pokedex-web-app-main\Pokedex-web-app-main\pokemon-frontend)
+Démarrer l'application React 
 
-Dans un nouveau terminal, à partir du dossier racine du projet, exécutez :
+Dans un nouveau terminal, exécutez dans Pokedex-web-app-main\Pokedex-web-app-main\pokemon-frontend:
 
 ///////////////////////
 
@@ -65,5 +65,8 @@ npm start
 ///////////////////////
 
 Ceci lancera l'application dans votre navigateur à l'adresse http://localhost:3000.
+
+A preview:
+
 ![image](https://github.com/akraft01/Pokedex-web-app/assets/71739202/4eb30387-204b-4b02-9961-c69f392e3b72)
 
