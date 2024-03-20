@@ -63,3 +63,5 @@ npm start
 ///////////////////////
 
 Ceci lancera l'application dans votre navigateur à l'adresse http://localhost:3000.
+![image](https://github.com/akraft01/Pokedex-web-app/assets/71739202/4eb30387-204b-4b02-9961-c69f392e3b72)
+
