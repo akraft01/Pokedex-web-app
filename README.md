@@ -29,34 +29,24 @@ Installation
 
 Pour exécuter ce projet localement, suivez ces étapes :
 
-Cloner le dépôt
+Telecharger le Zip de l'application.
+Dezipper le tout.
 
-sh
-Copy code
-git clone https://exempledepot.com/projet-pokedex.git
-cd projet-pokedex
+cd Pokedex-web-app-main/Pokedex-web-app-main
 Installer les dépendances
 
 Dans le dossier racine du projet, exécutez :
 
-sh
-Copy code
 npm install
-Répétez cette étape dans le dossier du serveur si votre projet est structuré de cette façon.
 
 Démarrer le serveur back-end
 
-Si votre projet inclut un serveur back-end (Express.js dans cet exemple), naviguez vers le dossier du serveur et démarrez-le :
-
-sh
-Copy code
-cd chemin/vers/serveur
 npm start
+
 Démarrer l'application React
 
 Dans un nouveau terminal, à partir du dossier racine du projet, exécutez :
 
-sh
-Copy code
 npm start
+
 Ceci lancera l'application dans votre navigateur à l'adresse http://localhost:3000.
