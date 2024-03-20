@@ -1,6 +1,6 @@
 # Welcome to Pokedex-web-app
 
-Projet: Pokédex avec React et GraphQL
+Projet: Pokédex avec React et GraphQL.
 Ce projet est un Pokédex construit avec React pour l'interface utilisateur et GraphQL pour l'interrogation des données. Il permet aux utilisateurs de consulter une liste de Pokémon, d'effectuer des recherches et de filtrer par type, et d'accéder à des détails spécifiques sur chaque Pokémon.
 
 Fonctionnalités
