@@ -1,58 +1,57 @@
-🎮 Pokédex Web App
-Welcome to the Pokédex Web App, an interactive and visually appealing Pokédex built with React and GraphQL! Explore the world of Pokémon with ease, search and filter Pokémon by type, and get detailed stats on your favorite creatures.
-
-🚀 Project Overview
-This project brings the world of Pokémon to your fingertips, featuring a clean interface built with React and powerful data fetching using GraphQL.
+🕹️ Pokédex Web App
+Welcome to the Pokédex Web App – an immersive and interactive Pokémon experience built with React. This project uses both REST API and GraphQL to deliver a smooth user experience for browsing, searching, and exploring your favorite Pokémon!
 
 🌟 Features
-📝 Pokémon List: Browse through a complete list of Pokémon, displaying names, types, and basic stats.
-🔍 Search & Filter: Easily search for any Pokémon by name and filter the list based on Pokémon type.
-📖 Pagination: Navigate the Pokémon list effortlessly with built-in pagination.
-📊 Pokémon Details: Click on any Pokémon to reveal detailed information, including their image and stats.
-🛠️ Tech Stack
+Pokémon List: Browse all Pokémon with detailed information such as names, types, and base stats.
+Search & Filter: Search for Pokémon by name or filter them by type.
+Pagination: Navigate easily through the Pokémon list with built-in pagination.
+Detailed Pokémon Info: Click on any Pokémon to view detailed stats, including an image.
+🛠️ Technologies Used
 Frontend: React.js ⚛️
-API: GraphQL with Apollo Client 🔮
-Backend: Express.js 🌐 with a simple JSON database for Pokémon data
+Data API:
+REST API for fetching basic Pokémon data from the backend 🌐
+GraphQL API with Apollo Client for enhanced querying 🔮
+Backend: Express.js with a simple JSON database 🗂️
 ⚙️ Prerequisites
-Before you begin, ensure that you have the following installed:
+Ensure you have the following installed before starting:
 
 Node.js: v14.17.0 or higher
 npm: v6.14.13 or higher
-📝 Installation
-To get started locally, follow these steps:
-
+🚀 Getting Started
+1️⃣ Clone or Download the Project
 Download the project zip file and unzip it.
 
-Open a terminal and navigate to the project directory:
+Open your terminal and navigate to the project directory:
 
 bash
 Copier le code
 cd Pokedex-web-app-main/Pokedex-web-app-main
-Install dependencies in the root folder:
+2️⃣ Install Dependencies
+In the root folder, run:
 
 bash
 Copier le code
 npm install
-Navigate to the pokemon-frontend directory and install dependencies there as well (this step is crucial):
+Next, go to the frontend folder and install dependencies there:
 
 bash
 Copier le code
-cd Pokedex-web-app-main/Pokedex-web-app-main/pokemon-frontend
+cd pokemon-frontend
 npm install
-🚀 Running the Application
-Start the Backend Server
-In the root folder, run the following command to start the back-end:
+3️⃣ Start the Backend (REST API)
+In the root directory, start the backend server:
 
 bash
 Copier le code
 npm start
-Start the React Frontend
-In a new terminal, navigate to the pokemon-frontend folder and start the React app:
+4️⃣ Launch the React Frontend
+In a separate terminal, navigate to the frontend folder:
 
 bash
 Copier le code
+cd pokemon-frontend
 npm start
-This will open the application in your browser at: http://localhost:3000
+Visit the app at: http://localhost:3000
 
 A preview:
 
