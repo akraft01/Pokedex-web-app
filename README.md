@@ -41,6 +41,7 @@ Open your terminal and navigate to the project directory:
 bash
 Copier le code
 cd Pokedex-web-app-main/Pokedex-web-app-main
+
 2️⃣ Install Dependencies
 In the root folder, run:
 
@@ -53,12 +54,14 @@ bash
 Copier le code
 cd pokemon-frontend
 npm install
+
 3️⃣ Start the Backend (REST API)
 In the root directory, start the backend server:
 
 bash
 Copier le code
 npm start
+
 4️⃣ Launch the React Frontend
 In a separate terminal, navigate to the frontend folder:
 
