@@ -1,70 +1,44 @@
-# Welcome to Pokedex-web-app
+Welcome to Pokedex-web-app
+Project: Pokédex with React and GraphQL. This project is a Pokédex built with React for the user interface and GraphQL for querying data. It allows users to browse a list of Pokémon, search, filter by type, and access specific details about each Pokémon.
 
-Projet: Pokédex avec React et GraphQL.
-Ce projet est un Pokédex construit avec React pour l'interface utilisateur et GraphQL pour l'interrogation des données. Il permet aux utilisateurs de consulter une liste de Pokémon, d'effectuer des recherches et de filtrer par type, et d'accéder à des détails spécifiques sur chaque Pokémon.
-
-Fonctionnalités
-
-Liste de Pokémon: Affiche tous les Pokémon disponibles avec leurs noms, types et statistiques de base.
-
-Recherche et Filtre: Permet aux utilisateurs de rechercher un Pokémon par nom et de filtrer la liste par type de Pokémon.
-
-Pagination: La liste de Pokémon supporte la pagination pour une navigation facile.
-
-Détails du Pokémon: En cliquant sur un Pokémon, les utilisateurs peuvent voir des informations détaillées, y compris une image du Pokémon.
-
-Technologies Utilisées
-
+Features
+Pokémon List: Displays all available Pokémon with their names, types, and basic stats.
+Search and Filter: Allows users to search for a Pokémon by name and filter the list by Pokémon type.
+Pagination: The Pokémon list supports pagination for easy navigation.
+Pokémon Details: By clicking on a Pokémon, users can view detailed information, including an image of the Pokémon.
+Technologies Used
 Front-end: React.js
+Data API: GraphQL with Apollo Client
+Back-end (for data): Express.js and a simple JSON database for Pokémon data.
+Prerequisites
+Before starting, make sure you have Node.js and npm installed on your system. This project was created with Node.js version v14.17.0 or higher and npm version 6.14.13 or higher.
 
-API de données: GraphQL avec Apollo Client
+Installation
+To run this project locally, follow these steps:
 
-Back-end (pour les données): Express.js et une base de données JSON simple pour les données Pokémon.
-
-Prérequis
-
-Avant de démarrer, assurez-vous d'avoir Node.js et npm installés sur votre système. Ce projet a été créé avec Node.js version v14.17.0 ou supérieur et npm version 6.14.13 ou supérieur.
-
-# Installation
-
-Pour exécuter ce projet localement, suivez ces étapes :
-
-Telecharger le Zip de l'application.
-Dezipper le tout.
-
+Download the app's Zip file. Unzip everything.
+Navigate to the directory:
 cd Pokedex-web-app-main/Pokedex-web-app-main
+Install dependencies:
+In the project's root folder, run:
 
-Installer les dépendances
-
-Dans le dossier racine du projet, exécutez :
-
-///////////////////////
-
+Copier le code
 npm install
+Repeat the same in the folder Pokedex-web-app-main\Pokedex-web-app-main\pokemon-frontend (This is very important).
 
-///////////////////////
+Start the Back-end Server
+In the root folder, run:
 
-Repeter la meme chose dans le dossier Pokedex-web-app-main\Pokedex-web-app-main\pokemon-frontend (Tres important)
-
-Démarrer le serveur back-end
-
-////////////////////////
-
+sql
+Copier le code
 npm start
+Start the React Application
+In a new terminal, run the following command inside Pokedex-web-app-main\Pokedex-web-app-main\pokemon-frontend:
 
-///////////////////////
-
-Démarrer l'application React 
-
-Dans un nouveau terminal, exécutez dans Pokedex-web-app-main\Pokedex-web-app-main\pokemon-frontend:
-
-///////////////////////
-
+sql
+Copier le code
 npm start
-
-///////////////////////
-
-Ceci lancera l'application dans votre navigateur à l'adresse http://localhost:3000.
+This will launch the app in your browser at http://localhost:3000.
 
 A preview:
 
